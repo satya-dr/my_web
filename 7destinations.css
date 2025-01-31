@@ -1,0 +1,230 @@
+.locations{
+    height: 20rem;
+    width: 100%;
+    margin-top: 10px;
+    background: linear-gradient(to right, orange , white ,green );
+}
+
+.locations .main_box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.locations .main_box .box1{
+    margin-bottom: 2rem;
+}
+.locations .main_box .box1 .lowest_price{
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(132, 22, 91);
+}
+.locations .main_box .box1 .types{
+    display: flex;
+    align-items: center;
+ 
+ }
+ .locations .main_box .box1 .types #common_type{
+    margin-left: 20px;
+    color: rgb(111, 107, 107);
+    font-weight: 900;
+    margin-bottom: 10px;
+ }
+ .locations .main_box .box1 .main_location{
+    height: 5.5rem;
+    width: 70rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #fff ;
+    border-radius: 10px;
+    box-shadow: #6b6464;
+    box-shadow: 0 0 30px 10px rgba(36, 36, 36, 0.2);
+}
+
+.locations .main_box .box1 .main_location #box_color{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.locations .main_box .box1 .main_location #box_color:hover{
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.locations .main_box .box1 .main_location .class_boxColor_2{
+    display: flex;
+    align-items: center;
+}
+.locations .main_box .box1 .main_location  #box_color .from{
+    height: 100%;
+    width: 50%;
+}
+.locations .main_box .box1 .main_location  #box_color .from h2{
+    color: #B22485;
+    margin-left: 30px;
+}
+.locations .main_box .box1 .main_location #box_color .from h5{
+    margin-bottom: 5px;
+     margin-top: 5px; 
+     color: #1189a4;
+     margin-left: 30px;
+}
+.locations .main_box .box1 .main_location #box_color .from p{
+    margin-top: 5px; 
+    color: #B25A2B;
+}
+.locations .main_box .box1 .main_location #box_color.from:hover{
+    background-color: rgb(38, 127, 162);
+    transform: scale(1.00);
+    /* border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    
+}
+.locations .main_box .box1 .main_location .class_boxColor_1 .to{
+    border-left: 1px solid rgb(185, 185, 185);
+    height: 100%;
+    width: 50%;
+}
+.locations .main_box .box1 .main_location .class_boxColor_1 .to h2{
+    margin-left: 30px;
+    color: #B22485;  
+}
+.locations .main_box .box1 .main_location .class_boxColor_1 .to h5{
+    margin-left: 30px; 
+    margin-bottom: 5px;
+    margin-top: 5px; 
+    color: #1189a4;
+}
+.locations .main_box .box1 .main_location .class_boxColor_1 p{
+    margin-left: 30px; 
+    margin-top: 5px; 
+    color: #B25A2B;
+}
+
+.locations .main_box .box1 .main_location .class_boxColor_1 .to:hover{
+    background-color: rgb(213, 242, 253);
+    transform: scale(1.00);
+}
+.locations .main_box .box1 .main_location .class_boxColor_2 #Travel_section{
+    height: 100%;
+    width: 25%;
+    border-left: 1px solid rgb(185, 185, 185);
+}
+.locations .main_box .box1 .main_location .class_boxColor_2 #Travel_section:hover{
+    background-color: rgb(213, 242, 253);
+    transform: scale(1.00);
+}
+
+
+.locations .main_box .box1 .main_location .class_boxColor_2 .starting_time .journey{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2px;
+}
+.locations .main_box .box1 .main_location .class_boxColor_2 .starting_time .journey input{
+    font-weight: 1000;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+.locations .main_box .box1 .main_location .class_boxColor_2 .starting_time .journey input:hover{
+    border: none;
+}
+
+.locations .main_box .box1 .main_location .class_boxColor_2 .travell_class{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid rgb(185, 185, 185);
+}
+.locations .main_box .box1 .main_location .class_boxColor_2 .travell_class:hover{
+    background-color: rgb(213, 242, 253);
+    transform: scale(1.00);
+}
+.main_location .class_boxColor_2 .travell_class .t_classes .t_classes h6{
+   margin-bottom: 5px;
+   color: rgb(93, 89, 89);
+   margin-left: 10px;
+}
+
+.locations .main_box .box1 .main_location .class_boxColor_2 .travell_class .t_classes #traveller{
+    background-color: transparent;
+    font-size:17px;
+    font-weight: 900;
+    border: none;
+    margin-bottom: 5px;
+}
+.locations .main_box .box1 .main_location .class_boxColor_2 .travell_class .t_classes #traveller:hover{
+    border: none;
+}
+.locations .main_box .box1 .main_location .class_boxColor_2 .travell_class .t_classes #traveller option {
+    font-size: 20px;
+}
+
+.locations .main_box .box1 .main_location .class_boxColor_2 .starting_time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(72, 64, 64);
+}
+.main_location .class_boxColor_2 .starting_time .sub_st_time h5,.main_location .class_boxColor_2 .starting_time .sub_st_time h6{
+    margin-left: 10px;
+ }
+ .main_location .class_boxColor_2 .starting_time .sub_st_time h5{
+    margin-bottom: 5px;
+ }
+ .main_location .class_boxColor_2 .starting_time .sub_st_time h6{
+    margin-top: 5px;
+ }
+
+
+ .main_location .class_boxColor_2 .return_date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(72, 64, 64);
+ }
+ .main_location .class_boxColor_2.return_date .sub_rt_time h5,  .main_location .class_boxColor_2.return_date .sub_rt_time h6{
+    margin-left: 10px;
+ }
+ .main_location .class_boxColor_2.return_date .sub_rt_time h5{
+    margin-bottom: 5px;
+ }
+ .main_location .class_boxColor_2.return_date .sub_rt_time h6{
+    margin-top: 5px;
+ }
+
+
+.main_location .class_boxColor_2  #section_search{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 100%;
+    width: 25%;
+    border-left: 1px solid rgb(185, 185, 185);
+    background-color: rgb(58, 159, 212);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.main_location .class_boxColor_2  #section_search:hover{
+    transform: scale(1.00);
+    background-color:#00ff8c;
+}

@@ -1,0 +1,83 @@
+.place_with_offer{
+    height: 10rem;
+    width: 100%;
+    background: #fff;
+   
+}
+
+.place_with_offer ._toprflcont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.place_with_offer #let{
+    margin-top: 30px;
+}
+.place_with_offer ._toprflcont img{
+    height: 2rem;
+    width: 4rem;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+.place_with_offer ._hdrtxt{
+    font-weight: 900;
+    font-size: 30px;
+}
+.place_with_offer._toprflcont .left{
+    margin-right: 10px;
+}
+.place_with_offer ._toprflcont .right{
+    margin-left: 10px;
+}
+.place_with_offer h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(154, 36, 36);
+}
+.place_with_offer .place_offer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.place_with_offer .place_offer #common_offer{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    margin-top: 5px;
+    border-radius: 15px;
+    transition: 0.1s;
+    font-weight: 900;
+}
+.place_with_offer .place_offer #common_offer:hover{
+    background-color: rgb(122, 203, 195);
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.place_with_offer .place_offer .bank {
+    height: 40px;
+    width: 89px;
+    color: #a334a0
+}
+.place_with_offer .place_offer .hotel_offer{
+    height: 40px;
+    width: 89px;
+    color: rgb(219, 50, 50);
+}
+.place_with_offer .place_offer .flight_offer{
+    height: 40px;
+    width: 89px;
+    color: rgb(68, 192, 142);
+}
+.place_with_offer .place_offer  .credit_card{
+    height: 40px;
+    width: 145px;
+    color: rgb(170, 59, 111);
+}
+.place_with_offer .place_offer .emi{
+    height: 40px;
+    width: 145px;
+    color: rgb(169, 110, 46);
+}
